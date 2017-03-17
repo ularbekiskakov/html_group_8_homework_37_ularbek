@@ -6,8 +6,99 @@ body {
 	width: 100%;
 	max-width: 935px;
 }
+.leftside {
+	text-align: center;
+	margin: 0 17%;
+}
 .caption {
 	font-size: 48px;
 	color: #111111;
-	
+	font-weight: 100;
+	margin-bottom: 5.5%;
+}
+.paragraf {
+	font-size: 18px;
+	color: #444444;
+	line-height: 1.63;
+	margin-bottom: 8.5%;
+}
+
+.icons-link .ic-icons {
+	display: inline-block;
+	background: #59B200 url(../uploads/location.png) 1px 0;
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	margin: 0 2px 4px 0;
+}
+.icons-link .icon-b {
+	background-position: -40px 0;
+}
+.icons-link .icon-c {
+	background-position: 35px 0;
+}
+.btn a {
+	color: #F97205;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #F97205;
+	font-weight: 600;
+	padding: 10px 9px 10px 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.btn span {
+	margin: 0 4px 0 0;
+}
+.btn span a {
+	padding: 10px 15px 10px 14px;
+}
+.btn a:hover {
+	color: #FFFFFF;
+	background: #F97205;
+}
+.rightside {
+	margin: 3%;
+	text-align: center;
+}
+
+/************@media 600px************/
+
+@media screen and (min-width: 600px){
+	.btn a {
+		margin-right: 15px;
+	}
+}
+
+/************@media 900px***********/
+
+@media screen and (min-width: 900px){
+	.wrapper {
+		display: flex;
+	}
+	.leftside {
+		width: 50%;
+		text-align: left;
+		margin: 0 0;
+		/*float: left;*/
+	}
+	.caption {
+		margin: 19px 0 34px 0;
+	}
+	.paragraf {
+		margin-bottom: 1%;
+		/*width: 60%;*/
+	}
+	.btn a {
+		margin-right: 14px;
+		padding: 16px 38px 13px 33px;
+	}
+	.btn span a {
+		
+		padding: 16px 38px 13px 33px;
+	}
+	.rightside {
+		text-align: right;
+	}
 }
